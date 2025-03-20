@@ -12,3 +12,18 @@ Size: 5315064
 MD5sum: 5682b70ba1fb72d3b28f621e39778a19
 SHA1: 80a70a76bd2d4b1b54bcf32254246093d323491d
 SHA256: fa6dd17a572aefb617370837952b3a1296511fc1ad8b6c36f456ccac7a79fced
+
+Package: com.ddvniele.amuryreborn-rootless
+Name: Amury Reborn (Rootless)
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: Amury Theme is alive again.
+Maintainer: Dan
+Author: Dan (from Alex Sanchez)
+Section: Themes
+Depends: com.spark.snowboard
+Filename: debs/com.ddvniele.amuryreborn_1.0_iphoneos-arm64.deb
+Size: 5441534
+MD5sum: cfb11bd6cdd3bdb2e579d27a309a6870
+SHA1: 338b1a370214839584cad893bead41ff5757ddf1
+SHA256: 9d1851e24a243eb5c6c6b836d616f9c1c7ecfc2833f8b83258f709806bbcc798
