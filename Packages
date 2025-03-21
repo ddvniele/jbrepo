@@ -10,6 +10,8 @@ Depends: com.spark.snowboard
 Filename: debs/com.ddvniele.amuryreborn_1.0_iphoneos-arm.deb
 Size: 5315064
 MD5sum: 5682b70ba1fb72d3b28f621e39778a19
+SHA1: 45f3cf9963e117432088a5bbbf2d3a5c8524c7d1
+SHA256: ba7ac7cc315c9d8dd9e1f373cc451437f2c9f3cefd55bc38daf59e8df42e1b1d
 
 Package: com.ddvniele.amuryreborn-rootless
 Name: Amury Reborn (Rootless)
@@ -23,3 +25,5 @@ Depends: com.spark.snowboard
 Filename: debs/com.ddvniele.amuryreborn_1.0_iphoneos-arm64.deb
 Size: 5441534
 MD5sum: cfb11bd6cdd3bdb2e579d27a309a6870
+SHA1: 85cafb0f85bf35b5413e24325d160e88dd313d61
+SHA256: 7c942b9227896b8545e09a713034300bc8f1989fdfd153c42bc878fcdbc0a405
