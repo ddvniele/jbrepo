@@ -6,7 +6,7 @@ Description: Amury Theme is alive again.
 Maintainer: Dan
 Author: Dan (from Alex Sanchez)
 Section: Themes
-Depends: com.spark.snowboard
+Depends: com.spark.snowboard | com.anemonetheming.anemone
 Filename: debs/com.ddvniele.amuryreborn_1.0_iphoneos-arm.deb
 Size: 5315064
 MD5sum: 5682b70ba1fb72d3b28f621e39778a19
@@ -27,3 +27,33 @@ Size: 5441534
 MD5sum: cfb11bd6cdd3bdb2e579d27a309a6870
 SHA1: 85cafb0f85bf35b5413e24325d160e88dd313d61
 SHA256: 7c942b9227896b8545e09a713034300bc8f1989fdfd153c42bc878fcdbc0a405
+
+Package: com.ddvniele.26
+Name: 26
+Version: 1.0
+Architecture: iphoneos-arm
+Description: iOS 26 icons for older devices
+Maintainer: Dan
+Author: Dan
+Section: Themes
+Depends: com.spark.snowboard | com.anemonetheming.anemone
+Filename: debs/com.ddvniele.26_1.0_iphoneos-arm.deb
+Size: 2305744
+MD5sum: e4d186d998f77bea367087f8f23b7609
+SHA1: 56e1638e6dd56062e7b58d69090ecd4be222b119
+SHA256: 6add9c241ab4117aec1b199121b380bec8c24f2179c07b1ea8425e482348bebc
+
+Package: com.ddvniele.26-rootless
+Name: 26
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: iOS 26 icons for older devices
+Maintainer: Dan
+Author: Dan
+Section: Themes
+Depends: com.spark.snowboard
+Filename: debs/com.ddvniele.26_1.0_iphoneos-arm64.deb
+Size: 2285544
+MD5sum: df47559ce0c22fd5c0aea27f07d3a309
+SHA1: 74bbfcf23f7866a61bda316bf8fadafcb07a14ca
+SHA256: 293696b1d012d53d7ad6e2078680d2652732ce6f41cc6b4e50ad2d52b2652b95
