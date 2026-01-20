@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Dan's Repo</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#E5E5E5" media="(prefers-color-scheme: light)">
-        <meta name="theme-color" content="#E5E5E5" media="(prefers-color-scheme: dark)">
-        <link rel="stylesheet" href="style.css">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon/site.webmanifest">
-    </head>
-    <body>
-        <div class="header">
-            <a href="https://ddvniele.github.io"><img src="CydiaIcon.png"></a>
-            <div class="header-body">
-                <h1>Dan's Repo</h1>
-                <p>by <a class="github-link" href="https://github.com/ddvniele">@ddvniele</a> on GitHub &#128191;</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Dan's Repo | @ddvniele</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="vertical-grid-bg selection:bg-white selection:text-black">
+
+    <div id="cursor-smooth"></div>
+
+    <nav id="top-navbar" class="fixed top-0 left-0 w-full px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-1.5">
+             <img src="https://github.com/ddvniele.png" id="nav-avatar" alt="Dan Avatar Small" class="w-8 h-8 rounded-full object-cover select-none pointer-events-none hacker-image">
+             <a href="https://ddvniele.github.io" id="nav-logo" class="magnet-target magnetic-text font-helvetica font-extrabold text-xl tracking-tighter leading-none text-white no-underline" data-value="Dan ツ">
+                Dan ツ
+             </a>
+        </div>
+        <div class="font-mono text-[10px] md:text-xs text-[#666]">
+            JAILBREAK REPO
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto border-l border-r border-[#1a1a1a] bg-black/80 backdrop-blur-sm h-full flex flex-col">
+        
+        <div id="main-container">
+            <div class="centered-wrapper px-6 md:px-12">
+                
+                <div class="flex flex-col items-center text-center w-full max-w-lg mx-auto">
+                    
+                    <div class="mb-10 magnet-target image-magnet no-cursor-snap">
+                        <span class="text-9xl select-none pointer-events-none filter drop-shadow-2xl">📂</span>
+                    </div>
+
+                    <h1 id="page-title" class="hacker-effect font-helvetica text-5xl md:text-7xl font-bold mb-4 tracking-tighter text-white cursor-default leading-none" data-value="Dan's Repo">
+                        Dan's Repo
+                    </h1>
+                    
+                    <div class="mb-12 text-sm md:text-base text-[#9ca3af] leading-relaxed">
+                        <span>by</span> <a href="https://github.com/ddvniele" target="_blank" class="text-white font-bold magnet-target magnetic-text">Dan</a> <span>on GitHub</span>
+                    </div>
+
+                    <div class="w-full relative group">
+                        <p class="text-[10px] text-[#666] uppercase tracking-widest mb-2 text-center font-bold w-full">CLICK TO COPY</p>
+                        <div id="repo-box" class="repo-url-box magnet-target" data-value="https://ddvniele.github.io/jbrepo">
+                            https://ddvniele.github.io/jbrepo
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-3 w-full mt-6">
+                        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ddvniele.github.io/jbrepo" class="magnet-target btn-outline hacker-hover" data-value="Add to Cydia ➜">
+                            Add to Cydia ➜
+                        </a>
+                        <a href="sileo://source/https://ddvniele.github.io/jbrepo" class="magnet-target btn-outline hacker-hover" data-value="Add to Sileo ➜">
+                            Add to Sileo ➜
+                        </a>
+                        <a href="zbra://sources/add/https://ddvniele.github.io/jbrepo" class="magnet-target btn-outline hacker-hover" data-value="Add to Zebra ➜">
+                            Add to Zebra ➜
+                        </a>
+                        <a href="installer://add/repo=https://ddvniele.github.io/jbrepo" class="magnet-target btn-outline hacker-hover" data-value="Add to Installer ➜">
+                            Add to Installer ➜
+                        </a>
+                    </div>
+
+                    <div class="mt-10">
+                         <a href="https://github.com/ddvniele/jbrepo" target="_blank" class="magnet-target magnetic-text text-xs text-[#666] hover:text-white uppercase tracking-widest transition-colors" data-value="View Source Code">View Source Code</a>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="description">
-            <div class="addto-body">
-                <span><a class="btn-cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ddvniele.github.io/jbrepo">Add to Cydia ➜</a></span>
-                <span><a class="btn-sileo" href="sileo://source/https://ddvniele.github.io/jbrepo">Add to Sileo ➜</a></span>
-                <span><a class="btn-zebra" href="zbra://sources/add/https://ddvniele.github.io/jbrepo">Add to Zebra ➜</a></span>
-                <span><a class="btn-installer" href="installer://add/repo=https://ddvniele.github.io/jbrepo">Add to Installer ➜</a></span>
-            </div>
-        </div>
-        <div class="footer">
-            <span><a class="footer-github" href="https://github.com/ddvniele/jbrepo">show on GitHub ➜</a></span>
-            <span><a class="footer-link" href="https://ddvniele.github.io">ddvniele.github.io</a></span>
-        </div>
-    </body>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
